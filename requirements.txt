@@ -1,1 +1,9 @@
-streamlit pandas numpy
+# Secure Password Analyzer Requirements
+
+# This project uses only Python standard libraries.
+# No external packages are required.
+
+# Built-in modules used:
+# tkinter
+# hashlib
+# re
