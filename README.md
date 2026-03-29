@@ -3,22 +3,21 @@
 ## 📌 Project Description
 
 The **Secure Password Analyzer** is a desktop application developed
-using Python that evaluates the strength of a password and estimates the
-time required to crack it using a brute-force attack simulation.
+using **Python** that evaluates password strength and estimates the time
+required to crack it using a brute-force attack simulation.
 
 This project demonstrates core **Data Structures and Algorithms (DSA)**
 concepts along with cybersecurity principles such as hashing, pattern
-matching, and complexity analysis. The system helps users understand how
-secure their passwords are and provides suggestions for improvement.
+matching, and complexity analysis.
 
 ------------------------------------------------------------------------
 
-## 🎯 Project Objective
+## 🎯 Project Objectives
 
--   Analyze password strength using predefined security rules
+-   Analyze password strength using security rules
 -   Demonstrate secure password storage using hashing
 -   Simulate brute-force attack time estimation
--   Provide recommendations to improve password security
+-   Provide recommendations for stronger passwords
 -   Apply DSA concepts in a real-world cybersecurity problem
 
 ------------------------------------------------------------------------
@@ -29,10 +28,10 @@ secure their passwords are and provides suggestions for improvement.
 -   SHA-256 hashing implementation
 -   Brute-force attack simulation
 -   Crack time estimation
--   Suggestions for password improvement
+-   Password improvement suggestions
 -   Show / Hide password functionality
--   Simple and user-friendly GUI interface
--   Edge-case handling (No suggestions message)
+-   User-friendly GUI interface
+-   Displays **"No suggestions"** when password is strong
 
 ------------------------------------------------------------------------
 
@@ -45,26 +44,24 @@ secure their passwords are and provides suggestions for improvement.
   Pattern Matching        Regex validation
   Brute Force Algorithm   Attack simulation logic
   Time Complexity         Combination calculation
-  Conditional Logic       Strength scoring system
+  Conditional Logic       Strength scoring
 
 ------------------------------------------------------------------------
 
 ## 🛠️ Technologies Used
 
--   Programming Language: Python 3
--   GUI Framework: Tkinter
--   Libraries:
-    -   tkinter
-    -   ttk
-    -   re (Regular Expressions)
-    -   hashlib
+**Programming Language** - Python 3
+
+**GUI Framework** - Tkinter
+
+**Libraries** - tkinter - ttk - re (Regular Expressions) - hashlib
 
 ------------------------------------------------------------------------
 
 ## 🧩 System Workflow
 
 1.  User enters a password.
-2.  Program checks password rules:
+2.  Program checks:
     -   Minimum length
     -   Uppercase letters
     -   Lowercase letters
@@ -74,8 +71,8 @@ secure their passwords are and provides suggestions for improvement.
 4.  Password is converted into a SHA-256 hash.
 5.  Character set size is determined.
 6.  Possible combinations are calculated.
-7.  Estimated brute-force crack time is displayed.
-8.  Suggestions are shown if improvements are needed.
+7.  Estimated crack time is displayed.
+8.  Suggestions are shown if required.
 
 ------------------------------------------------------------------------
 
@@ -93,10 +90,11 @@ secure their passwords are and provides suggestions for improvement.
 
 ## ⏱️ Crack Time Calculation
 
-Total Combinations = (Character Set Size) \^ Password Length\
-Crack Time = Total Combinations / Guesses Per Second
+    Total Combinations = (Character Set Size) ^ Password Length
+    Crack Time = Total Combinations / Guesses Per Second
 
-Assumption: - Attacker speed = **1 billion guesses per second**
+**Assumption:**\
+Attacker speed = **1 Billion guesses per second**
 
 ------------------------------------------------------------------------
 
@@ -109,7 +107,7 @@ Assumption: - Attacker speed = **1 billion guesses per second**
   Hash generation          O(n)
   Crack time calculation   O(1)
 
-Overall Complexity: **O(n)**
+**Overall Complexity:** `O(n)`
 
 ------------------------------------------------------------------------
 
@@ -119,15 +117,15 @@ Overall Complexity: **O(n)**
 
 Download Python from: https://www.python.org/downloads/
 
-Enable: Add Python to PATH
+✔ Enable **Add Python to PATH**
 
-### Step 2: Download Project
+### Step 2: Install Requirements
 
-Place the file: Secure_password_Analyzer.py
+    pip install -r requirements.txt
 
 ### Step 3: Run Program
 
-Open terminal in project folder and run: python Secure_password_Analyzer.py
+    python Secure_password_Analyzer.py
 
 The GUI window will open.
 
@@ -160,36 +158,40 @@ The GUI window will open.
 
 -   Password entropy calculation
 -   Dictionary attack detection
--   Real-time strength analysis while typing
--   Web-based implementation (Flask/Django)
--   Database storage for password reports
+-   Real-time strength analysis
+-   Web-based version (Flask/Django)
+-   Database storage for reports
 -   AI-based password pattern prediction
 
 ------------------------------------------------------------------------
 
 ## 🧪 Testing
 
-Tested using: - Weak passwords - Medium-strength passwords - Strong
-passwords - Edge cases (empty input, minimal characters)
+Tested using: - Weak passwords - Medium passwords - Strong passwords -
+Empty input cases - Edge cases
 
 ------------------------------------------------------------------------
 
 ## 📁 Project Structure
 
-Project Folder/ │ ├── Secure_password_Analyzer.py └── README.md
+    Secure-Password-Analyzer/
+    │
+    ├── Secure_password_Analyzer.py
+    ├── README.md
+    ├── requirements.txt
+    └── .gitignore
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Author
-Saiteja Mareda
-Santhosh Daravath
-Greeshma Mukera
+## 👨‍💻 Authors
 
-Secure_password_Analyzer Project\
-Secure Password Analyzer with Attack Simulation
+-   Saiteja Mareda
+-   Santhosh Daravath
+-   Greeshma Mukera
 
 ------------------------------------------------------------------------
 
 ## 📄 License
 
-This project is developed for academic and educational purposes only.
+This project is developed for **academic and educational purposes
+only**.
