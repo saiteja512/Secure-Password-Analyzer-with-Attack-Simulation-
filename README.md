@@ -123,11 +123,11 @@ Enable: Add Python to PATH
 
 ### Step 2: Download Project
 
-Place the file: ADSA.py
+Place the file: Secure_password_Analyzer.py
 
 ### Step 3: Run Program
 
-Open terminal in project folder and run: python ADSA.py
+Open terminal in project folder and run: python Secure_password_Analyzer.py
 
 The GUI window will open.
 
@@ -176,13 +176,16 @@ passwords - Edge cases (empty input, minimal characters)
 
 ## 📁 Project Structure
 
-Project Folder/ │ ├── ADSA.py └── README.md
+Project Folder/ │ ├── Secure_password_Analyzer.py └── README.md
 
 ------------------------------------------------------------------------
 
 ## 👨‍💻 Author
+Saiteja Mareda
+Santhosh Daravath
+Greeshma Mukera
 
-ADSA Mini Project\
+Secure_password_Analyzer Project\
 Secure Password Analyzer with Attack Simulation
 
 ------------------------------------------------------------------------
