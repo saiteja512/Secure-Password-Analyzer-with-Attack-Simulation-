@@ -39,12 +39,17 @@ matching, and complexity analysis.
 
   DSA Concept             Implementation
   ----------------------- ---------------------------
-  Strings                 Password input processing
-  Hashing                 SHA-256 algorithm
-  Pattern Matching        Regex validation
-  Brute Force Algorithm   Attack simulation logic
-  Time Complexity         Combination calculation
-  Conditional Logic       Strength scoring
+  Strings               -  Password input processing
+  
+  Hashing               -  SHA-256 algorithm
+  
+  Pattern Matching      - Regex validation
+  
+  Brute Force Algorithm -  Attack simulation logic
+  
+  Time Complexity       - Combination calculation
+  
+  Conditional Logic     -  Strength scoring
 
 ------------------------------------------------------------------------
 
@@ -80,11 +85,15 @@ matching, and complexity analysis.
 
   Rule        Description
   ----------- -----------------------------
-  Length      Minimum 8 characters
-  Uppercase   At least one capital letter
-  Lowercase   At least one small letter
-  Numbers     At least one digit
-  Symbols     Special characters required
+  Length     - Minimum 8 characters
+  
+  Uppercase  - At least one capital letter 
+  
+  Lowercase  - At least one small letter
+  
+  Numbers    - At least one digit
+  
+  Symbols    - Special characters required
 
 ------------------------------------------------------------------------
 
