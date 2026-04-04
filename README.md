@@ -111,10 +111,13 @@ Attacker speed = **1 Billion guesses per second**
 
   Operation                Complexity
   ------------------------ ------------
-  Password scanning        O(n)
-  Regex matching           O(n)
-  Hash generation          O(n)
-  Crack time calculation   O(1)
+  Password scanning      -   O(n)
+  
+  Regex matching         -   O(n)
+  
+  Hash generation        -   O(n)
+   
+  Crack time calculation -   O(1)
 
 **Overall Complexity:** `O(n)`
 
