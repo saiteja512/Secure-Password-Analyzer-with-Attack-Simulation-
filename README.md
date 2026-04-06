@@ -53,7 +53,7 @@ matching, and complexity analysis.
 
 ------------------------------------------------------------------------
 
-## 🛠️ Technologies Used
+## 🛠️ Tech stack used
 
 **Programming Language** - Python 3
 
